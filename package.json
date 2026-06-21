@@ -1,0 +1,25 @@
+{
+  "name": "smart-student-resource-finder",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/saipranathi01/Smart-Student-Resource-Finder#readme",
+  "bugs": {
+    "url": "https://github.com/saipranathi01/Smart-Student-Resource-Finder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saipranathi01/Smart-Student-Resource-Finder.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

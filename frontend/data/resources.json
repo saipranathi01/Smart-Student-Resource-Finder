@@ -1,0 +1,244 @@
+[
+  {
+  "topic":"Python",
+  "roadmap":"https://roadmap.sh/python",
+  "documentation":"https://docs.python.org/3/",
+  "practice":"https://leetcode.com",
+  "interview":[
+    "What is a List?",
+    "What is a Dictionary?",
+    "What is OOP?"
+  ]
+},
+  {
+    "topic":"Java",
+    "roadmap":"https://roadmap.sh/java",
+    "documentation":"https://docs.oracle.com/javase/tutorial/",
+    "practice":"https://www.hackerrank.com/domains/java"
+  },
+  {
+    "topic":"SQL",
+    "roadmap":"https://roadmap.sh/sql",
+    "documentation":"https://www.w3schools.com/sql/",
+    "practice":"https://leetcode.com/problemset/database/"
+  },
+  {
+    "topic":"React",
+    "roadmap":"https://roadmap.sh/react",
+    "documentation":"https://react.dev",
+    "practice":"https://www.freecodecamp.org"
+  }
+  ,
+{
+"topic":"HTML",
+"roadmap":"https://roadmap.sh/frontend",
+"documentation":"https://developer.mozilla.org/en-US/docs/Web/HTML",
+"practice":"https://www.freecodecamp.org",
+"interview":["What is HTML?","What are semantic tags?","What is a form?"]
+},
+{
+"topic":"CSS",
+"roadmap":"https://roadmap.sh/frontend",
+"documentation":"https://developer.mozilla.org/en-US/docs/Web/CSS",
+"practice":"https://www.freecodecamp.org",
+"interview":["What is Flexbox?","What is Grid?","What is Responsive Design?"]
+},
+{
+"topic":"Node.js",
+"roadmap":"https://roadmap.sh/nodejs",
+"documentation":"https://nodejs.org/docs/latest/api/",
+"practice":"https://www.freecodecamp.org",
+"interview":["What is Node.js?","What is Event Loop?","What is npm?"]
+},
+{
+"topic":"DSA",
+"roadmap":"https://roadmap.sh/datastructures-and-algorithms",
+"documentation":"https://www.geeksforgeeks.org/data-structures/",
+"practice":"https://leetcode.com",
+"interview":["What is Array?","What is Linked List?","What is Binary Tree?"]
+},
+{
+"topic":"DBMS",
+"roadmap":"https://roadmap.sh/sql",
+"documentation":"https://www.geeksforgeeks.org/dbms/",
+"practice":"https://www.hackerrank.com/domains/sql",
+"interview":["What is Normalization?","What is Primary Key?","What is Foreign Key?"]
+},
+{
+"topic":"Machine Learning",
+"roadmap":"https://roadmap.sh/ai-data-scientist",
+"documentation":"https://scikit-learn.org/stable/",
+"practice":"https://www.kaggle.com",
+"interview":["What is Supervised Learning?","What is Overfitting?","What is Regression?"]
+},
+{
+"topic":"Data Science",
+"roadmap":"https://roadmap.sh/ai-data-scientist",
+"documentation":"https://pandas.pydata.org/docs/",
+"practice":"https://www.kaggle.com",
+"interview":["What is Pandas?","What is Data Cleaning?","What is EDA?"]
+},
+{
+"topic":"Power BI",
+"roadmap":"https://learn.microsoft.com/en-us/power-bi/",
+"documentation":"https://learn.microsoft.com/en-us/power-bi/",
+"practice":"https://learn.microsoft.com/en-us/training/powerplatform/power-bi/",
+"interview":["What is Power BI?","What is DAX?","What is Power Query?"]
+},
+{
+"topic":"Operating System",
+"roadmap":"https://roadmap.sh/computer-science",
+"documentation":"https://www.geeksforgeeks.org/operating-systems/",
+"practice":"https://www.geeksforgeeks.org",
+"interview":["What is Process?","What is Thread?","What is Deadlock?"]
+},
+{
+"topic":"Computer Networks",
+"roadmap":"https://roadmap.sh/computer-science",
+"documentation":"https://www.geeksforgeeks.org/computer-network-tutorials/",
+"practice":"https://www.geeksforgeeks.org",
+"interview":["What is TCP?","What is UDP?","What is DNS?"]
+}
+,
+{
+  "topic":"C",
+  "roadmap":"https://roadmap.sh",
+  "documentation":"https://devdocs.io/c/",
+  "practice":"https://www.hackerrank.com/domains/c",
+  "interview":["What is Pointer?","What is Structure?","What is Dynamic Memory Allocation?"]
+},
+{
+  "topic":"C++",
+  "roadmap":"https://roadmap.sh",
+  "documentation":"https://cplusplus.com/doc/tutorial/",
+  "practice":"https://leetcode.com",
+  "interview":["What is OOP?","What is STL?","What is Virtual Function?"]
+},
+{
+  "topic":"MongoDB",
+  "roadmap":"https://roadmap.sh/mongodb",
+  "documentation":"https://www.mongodb.com/docs/",
+  "practice":"https://www.mongodb.com",
+  "interview":["What is MongoDB?","What is Collection?","What is Aggregation?"]
+},
+{
+  "topic":"PostgreSQL",
+  "roadmap":"https://roadmap.sh/postgresql",
+  "documentation":"https://www.postgresql.org/docs/",
+  "practice":"https://www.hackerrank.com/domains/sql",
+  "interview":["What is PostgreSQL?","What is Indexing?","What is View?"]
+},
+{
+  "topic":"Angular",
+  "roadmap":"https://roadmap.sh/angular",
+  "documentation":"https://angular.dev",
+  "practice":"https://www.freecodecamp.org",
+  "interview":["What is Angular?","What is Component?","What is Service?"]
+},
+{
+  "topic":"Vue.js",
+  "roadmap":"https://roadmap.sh/vue",
+  "documentation":"https://vuejs.org",
+  "practice":"https://www.freecodecamp.org",
+  "interview":["What is Vue?","What is Directive?","What is Vue Router?"]
+},
+{
+  "topic":"Flutter",
+  "roadmap":"https://roadmap.sh/flutter",
+  "documentation":"https://docs.flutter.dev",
+  "practice":"https://www.freecodecamp.org",
+  "interview":["What is Flutter?","What is Widget?","What is StatefulWidget?"]
+},
+{
+  "topic":"Android",
+  "roadmap":"https://roadmap.sh/android",
+  "documentation":"https://developer.android.com/docs",
+  "practice":"https://developer.android.com/courses",
+  "interview":["What is Activity?","What is Intent?","What is Fragment?"]
+},
+{
+  "topic":"Cyber Security",
+  "roadmap":"https://roadmap.sh/cyber-security",
+  "documentation":"https://owasp.org",
+  "practice":"https://tryhackme.com",
+  "interview":["What is Firewall?","What is SQL Injection?","What is XSS?"]
+},
+{
+  "topic":"DevOps",
+  "roadmap":"https://roadmap.sh/devops",
+  "documentation":"https://docs.docker.com",
+  "practice":"https://kodekloud.com",
+  "interview":["What is CI/CD?","What is Docker?","What is Kubernetes?"]
+},
+{
+  "topic":"AWS",
+  "roadmap":"https://roadmap.sh/aws",
+  "documentation":"https://docs.aws.amazon.com",
+  "practice":"https://aws.amazon.com/training/",
+  "interview":["What is EC2?","What is S3?","What is Lambda?"]
+},
+{
+  "topic":"Azure",
+  "roadmap":"https://roadmap.sh",
+  "documentation":"https://learn.microsoft.com/azure/",
+  "practice":"https://learn.microsoft.com/training/azure/",
+  "interview":["What is Azure VM?","What is Blob Storage?","What is Azure Functions?"]
+},
+{
+  "topic":"Docker",
+  "roadmap":"https://roadmap.sh/devops",
+  "documentation":"https://docs.docker.com",
+  "practice":"https://kodekloud.com",
+  "interview":["What is Docker?","What is Container?","What is Dockerfile?"]
+},
+{
+  "topic":"Kubernetes",
+  "roadmap":"https://roadmap.sh/kubernetes",
+  "documentation":"https://kubernetes.io/docs/",
+  "practice":"https://kodekloud.com",
+  "interview":["What is Pod?","What is Deployment?","What is Service?"]
+},
+{
+  "topic":"Artificial Intelligence",
+  "roadmap":"https://roadmap.sh/ai-data-scientist",
+  "documentation":"https://www.tensorflow.org",
+  "practice":"https://www.kaggle.com",
+  "interview":["What is AI?","What is Neural Network?","What is Deep Learning?"]
+},
+{
+  "topic":"Deep Learning",
+  "roadmap":"https://roadmap.sh/ai-data-scientist",
+  "documentation":"https://pytorch.org/docs/stable/",
+  "practice":"https://www.kaggle.com",
+  "interview":["What is CNN?","What is RNN?","What is Backpropagation?"]
+},
+{
+  "topic":"TensorFlow",
+  "roadmap":"https://roadmap.sh/ai-data-scientist",
+  "documentation":"https://www.tensorflow.org/api_docs",
+  "practice":"https://www.kaggle.com",
+  "interview":["What is TensorFlow?","What is Keras?","What is Tensor?"]
+},
+{
+  "topic":"PyTorch",
+  "roadmap":"https://roadmap.sh/ai-data-scientist",
+  "documentation":"https://pytorch.org/docs/stable/",
+  "practice":"https://www.kaggle.com",
+  "interview":["What is PyTorch?","What is Tensor?","What is Autograd?"]
+},
+{
+  "topic":"Blockchain",
+  "roadmap":"https://roadmap.sh/blockchain",
+  "documentation":"https://ethereum.org/en/developers/docs/",
+  "practice":"https://cryptozombies.io",
+  "interview":["What is Blockchain?","What is Smart Contract?","What is Ethereum?"]
+},
+{
+  "topic":"Data Analytics",
+  "roadmap":"https://roadmap.sh/data-analyst",
+  "documentation":"https://pandas.pydata.org/docs/",
+  "practice":"https://www.kaggle.com",
+  "interview":["What is KPI?","What is Dashboard?","What is ETL?"]
+}
+
+]
