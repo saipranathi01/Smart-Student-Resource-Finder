@@ -40,6 +40,9 @@ fetch("/data/resources.json")
 
             document.getElementById("interview-list").innerHTML =
             html;
+            
+
+
         }
     }
 

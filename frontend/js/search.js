@@ -10,6 +10,8 @@ fetch("/data/resources.json")
     var suggestions =
     document.getElementById("suggestions");
 
+    // Auto Suggest
+
     searchBar.addEventListener("input", function(){
 
         var query =
@@ -40,7 +42,39 @@ fetch("/data/resources.json")
 
     });
 
+    // Enter Key Search
+
+    searchBar.addEventListener("keypress", function(event){
+
+        if(event.key === "Enter"){
+
+            var query =
+            searchBar.value.toLowerCase();
+
+            for(var i=0;i<data.length;i++){
+
+                if(
+                    data[i].topic
+                    .toLowerCase() === query
+                ){
+
+                    localStorage.setItem(
+                        "selectedTopic",
+                        data[i].topic
+                    );
+
+                    window.location.href =
+                    "/pages/resources.html";
+
+                    break;
+                }
+            }
+        }
+    });
+
 });
+
+// Suggestion Click
 
 function selectTopic(topic){
 
