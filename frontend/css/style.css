@@ -346,9 +346,9 @@ button:hover{
 }
 .resource-section{
     background:white;
-    padding:20px;
-    border-radius:12px;
-    margin-bottom:20px;
+    padding:5px;
+    border-radius:10px;
+    margin-bottom:5px;
     box-shadow:0 2px 8px rgba(0,0,0,0.08);
 }
 .search-container{
@@ -420,4 +420,7 @@ button:hover{
 .about-card li{
     font-size:16px;
     line-height:1.8;
+}
+.resource-section{
+    padding:15px;
 }
