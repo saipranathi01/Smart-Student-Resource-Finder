@@ -1,12 +1,12 @@
 var topic = localStorage.getItem("selectedTopic");
 
-document.getElementById("project-title").innerText =
-"Top GitHub Projects for " + topic;
+document.getElementById("project-title").innerHTML =
+`Top GitHub Projects for <span class="highlight-topic">${topic}</span>`;
 
 fetch(
     "https://api.github.com/search/repositories?q=" +
     topic +
-    "&sort=stars&order=desc"
+    "+tutorial&sort=stars&order=desc"
 )
 .then(function(res){
     return res.json();
@@ -14,35 +14,57 @@ fetch(
 .then(function(data){
 
     var html = "";
+    var count = 0;
 
-    for(var i = 0; i < 10; i++){
+    for(let i = 0; i < data.items.length; i++){
+
+        let repo = data.items[i];
+
+        // Skip repos without description
+        if(!repo.description){
+            continue;
+        }
+
+        // Skip Chinese/Japanese/Korean descriptions
+        if(/[^\x00-\x7F]/.test(repo.description)){
+            continue;
+        }
 
         html += `
         <div class="project-card">
 
-            <h3>${data.items[i].name}</h3>
+            <h3>${repo.name}</h3>
 
-         <p>
-${(data.items[i].description || "No description available")
-.substring(0,150)}
-...
-</p>
             <p>
-                ⭐ ${data.items[i].stargazers_count}
+                ${(repo.description).substring(0,120)}...
+            </p>
+
+            <p>
+                ⭐ ${repo.stargazers_count}
             </p>
 
             <a
-              href="${data.items[i].html_url}"
-              target="_blank">
-              View Repository
+                href="${repo.html_url}"
+                target="_blank">
+                View Repository
             </a>
 
         </div>
         `;
+
+        count++;
+
+        if(count === 10){
+            break;
+        }
     }
 
-    document.getElementById(
-        "projects-container"
-    ).innerHTML = html;
+    document.getElementById("projects-container").innerHTML = html;
 
+})
+.catch(function(error){
+    console.log(error);
+
+    document.getElementById("projects-container").innerHTML =
+    "<h2>Unable to load projects.</h2>";
 });

@@ -1,13 +1,19 @@
+
 body{
     margin:0;
     font-family:'Segoe UI',sans-serif;
-    background:#f5f7fb;
+
+    background:linear-gradient(
+        135deg,
+        #c1ddef,
+        #b6d6f6,
+        #84b1ed
+    );
 
     display:flex;
     flex-direction:column;
     min-height:100vh;
 }
-
 .navbar{
     background:#2563eb;
     padding:18px;
@@ -15,6 +21,21 @@ body{
     box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
+.navbar a{
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    color:#ffd700;
+}
+.suggestion-item{
+    transition:0.3s;
+}
+
+.suggestion-item:hover{
+    background:#eef4ff;
+    transform:scale(1.03);
+}
 .navbar a{
     color:white;
     text-decoration:none;
@@ -54,6 +75,13 @@ button{
     color:white;
     font-size:16px;
     cursor:pointer;
+}
+button{
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
 }
 
 button:hover{
@@ -134,6 +162,21 @@ button:hover{
         .resource-section a:hover{
             text-decoration:underline;
         }
+        .resource-card{
+    transition:0.3s;
+}
+.resource-section{
+    margin-bottom:20px;
+    padding:15px;
+    background:#f8fafc;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.resource-section:hover{
+    transform:scale(1.03);
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
 
         #interview-list{
             padding-left:20px;
@@ -165,8 +208,12 @@ button:hover{
     margin-bottom:20px;
     border-radius:12px;
     box-shadow:0 2px 10px rgba(0,0,0,0.1);
+      transition:0.3s;
 }
-
+.project-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
 .project-card h3{
     color:#2563eb;
 }
@@ -199,7 +246,9 @@ button:hover{
     box-shadow:0 2px 10px rgba(0,0,0,0.1);
     font-size:18px;
     font-weight:500;
+      
 }
+
 .hero{
     flex:1;
 }
@@ -215,4 +264,160 @@ button:hover{
 .project-card p{
     line-height:1.6;
     color:#555;
+}
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:50px;
+    flex-wrap:wrap;
+}
+
+.stat-card{
+    background:white;
+    width:220px;
+    padding:20px;
+    border-radius:15px;
+    transition:0.3s;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+.stat-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.stat-card h2{
+    color:#2563eb;
+    font-size:32px;
+}
+.back-btn{
+    display:block;
+    width:220px;
+    margin:20px auto;
+    text-align:center;
+
+    padding:12px 20px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+
+    transition:0.3s ease;
+}
+
+.back-btn:hover{
+    transform:scale(1.05);
+}
+.hero h1{
+    font-size:48px;
+    color:#ffffff;
+    text-shadow:2px 2px 8px rgba(0,0,0,0.3);
+    font-weight:bold;
+}
+.resource-card h1{
+    color:#2563eb;
+    text-align:center;
+    font-size:40px;
+    border-bottom:3px solid #2563eb;
+    padding-bottom:10px;
+    margin-bottom:30px;
+}
+.resource-section h3{
+    color:#1e40af;
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.hero h1{
+    font-size:48px;
+    font-weight:bold;
+    background:linear-gradient(
+        90deg,
+        #2563eb,
+        #7c3aed
+    );
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.highlight-topic{
+    color:#7c3aed;
+    font-weight:bold;
+}
+.resource-section{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+.search-container{
+    position:relative;
+    width:600px;
+    margin:20px auto;
+}
+
+.search-icon{
+    position:absolute;
+    left:18px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:18px;
+    pointer-events:none;
+}
+
+#search-bar{
+    width:100%;
+    height:50px;
+
+    padding-left:50px;
+    padding-right:20px;
+
+    border:2px solid #2563eb;
+    border-radius:50px;
+
+    font-size:16px;
+    outline:none;
+    box-sizing:border-box;
+
+    background:white;
+}
+
+#search-bar:focus{
+    border-color:#1d4ed8;
+    box-shadow:0 0 12px rgba(37,99,235,0.3);
+}
+#interview-link{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 20px;
+
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+
+    border-radius:8px;
+    font-weight:bold;
+    width:220px;
+    display:block;
+    text-align:center;
+    margin:15px auto;
+    transition:0.3s;
+}
+
+#interview-link:hover{
+    background:#1d4ed8;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+.loading{
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    color:#2563eb;
+    margin-top:50px;
+}
+.about-card p,
+.about-card li{
+    font-size:16px;
+    line-height:1.8;
 }

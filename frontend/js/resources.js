@@ -21,6 +21,10 @@ fetch("/data/resources.json")
 
             document.getElementById("practice-link").href =
             data[i].practice;
+           if(data[i].interviewLink){
+    document.getElementById("interview-link").href =
+    data[i].interviewLink;
+}
 
             var html = "";
 

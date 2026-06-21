@@ -4,6 +4,7 @@
   "roadmap":"https://roadmap.sh/python",
   "documentation":"https://docs.python.org/3/",
   "practice":"https://leetcode.com",
+  "interviewLink":"https://www.geeksforgeeks.org/python-interview-questions/",
   "interview":[
     "What is a List?",
     "What is a Dictionary?",
@@ -14,19 +15,37 @@
     "topic":"Java",
     "roadmap":"https://roadmap.sh/java",
     "documentation":"https://docs.oracle.com/javase/tutorial/",
-    "practice":"https://www.hackerrank.com/domains/java"
+    "practice":"https://www.hackerrank.com/domains/java",
+    "interviewLink":"https://www.geeksforgeeks.org/java-interview-questions/",
+    "interview":[
+    "What is JVM?",
+    "What is JDK and JRE?",
+    "What is OOP?"
+  ]
   },
   {
     "topic":"SQL",
     "roadmap":"https://roadmap.sh/sql",
     "documentation":"https://www.w3schools.com/sql/",
-    "practice":"https://leetcode.com/problemset/database/"
+    "practice":"https://leetcode.com/problemset/database/",
+    "interviewLink":"https://www.geeksforgeeks.org/sql-interview-questions/",
+  "interview":[
+    "What is Primary Key?",
+    "What is Foreign Key?",
+    "What is Normalization?"
+  ]
   },
   {
     "topic":"React",
     "roadmap":"https://roadmap.sh/react",
     "documentation":"https://react.dev",
-    "practice":"https://www.freecodecamp.org"
+    "practice":"https://www.freecodecamp.org",
+    "interviewLink":"https://www.geeksforgeeks.org/react-interview-questions/",
+     "interview":[
+    "What is React?",
+    "What is JSX?",
+    "What is Virtual DOM?"
+  ]
   }
   ,
 {
@@ -34,6 +53,7 @@
 "roadmap":"https://roadmap.sh/frontend",
 "documentation":"https://developer.mozilla.org/en-US/docs/Web/HTML",
 "practice":"https://www.freecodecamp.org",
+"interviewLink":"https://www.geeksforgeeks.org/html-interview-questions/",
 "interview":["What is HTML?","What are semantic tags?","What is a form?"]
 },
 {
@@ -41,6 +61,7 @@
 "roadmap":"https://roadmap.sh/frontend",
 "documentation":"https://developer.mozilla.org/en-US/docs/Web/CSS",
 "practice":"https://www.freecodecamp.org",
+"interviewLink":"https://www.geeksforgeeks.org/css-interview-questions/",
 "interview":["What is Flexbox?","What is Grid?","What is Responsive Design?"]
 },
 {
@@ -48,6 +69,7 @@
 "roadmap":"https://roadmap.sh/nodejs",
 "documentation":"https://nodejs.org/docs/latest/api/",
 "practice":"https://www.freecodecamp.org",
+"interviewLink":"https://www.geeksforgeeks.org/node-js-interview-questions/",
 "interview":["What is Node.js?","What is Event Loop?","What is npm?"]
 },
 {
@@ -55,6 +77,7 @@
 "roadmap":"https://roadmap.sh/datastructures-and-algorithms",
 "documentation":"https://www.geeksforgeeks.org/data-structures/",
 "practice":"https://leetcode.com",
+"interviewLink":"https://www.geeksforgeeks.org/data-structure-interview-questions-and-answers/",
 "interview":["What is Array?","What is Linked List?","What is Binary Tree?"]
 },
 {
@@ -62,6 +85,7 @@
 "roadmap":"https://roadmap.sh/sql",
 "documentation":"https://www.geeksforgeeks.org/dbms/",
 "practice":"https://www.hackerrank.com/domains/sql",
+"interviewLink":"https://www.geeksforgeeks.org/dbms-interview-questions/",
 "interview":["What is Normalization?","What is Primary Key?","What is Foreign Key?"]
 },
 {
@@ -69,6 +93,7 @@
 "roadmap":"https://roadmap.sh/ai-data-scientist",
 "documentation":"https://scikit-learn.org/stable/",
 "practice":"https://www.kaggle.com",
+"interviewLink":"https://www.geeksforgeeks.org/machine-learning-interview-questions/",
 "interview":["What is Supervised Learning?","What is Overfitting?","What is Regression?"]
 },
 {
@@ -76,6 +101,7 @@
 "roadmap":"https://roadmap.sh/ai-data-scientist",
 "documentation":"https://pandas.pydata.org/docs/",
 "practice":"https://www.kaggle.com",
+"interviewLink":"https://www.geeksforgeeks.org/data-science-interview-questions-and-answers/",
 "interview":["What is Pandas?","What is Data Cleaning?","What is EDA?"]
 },
 {
@@ -83,6 +109,7 @@
 "roadmap":"https://learn.microsoft.com/en-us/power-bi/",
 "documentation":"https://learn.microsoft.com/en-us/power-bi/",
 "practice":"https://learn.microsoft.com/en-us/training/powerplatform/power-bi/",
+"interviewLink":"https://www.geeksforgeeks.org/power-bi-interview-questions/",
 "interview":["What is Power BI?","What is DAX?","What is Power Query?"]
 },
 {
@@ -90,6 +117,7 @@
 "roadmap":"https://roadmap.sh/computer-science",
 "documentation":"https://www.geeksforgeeks.org/operating-systems/",
 "practice":"https://www.geeksforgeeks.org",
+"interviewLink":"https://www.geeksforgeeks.org/operating-system-interview-questions/",
 "interview":["What is Process?","What is Thread?","What is Deadlock?"]
 },
 {
@@ -97,6 +125,7 @@
 "roadmap":"https://roadmap.sh/computer-science",
 "documentation":"https://www.geeksforgeeks.org/computer-network-tutorials/",
 "practice":"https://www.geeksforgeeks.org",
+"interviewLink":"https://www.geeksforgeeks.org/computer-network-interview-questions/",
 "interview":["What is TCP?","What is UDP?","What is DNS?"]
 }
 ,
@@ -105,6 +134,7 @@
   "roadmap":"https://roadmap.sh",
   "documentation":"https://devdocs.io/c/",
   "practice":"https://www.hackerrank.com/domains/c",
+  "interviewLink":"https://www.geeksforgeeks.org/c-interview-questions/",
   "interview":["What is Pointer?","What is Structure?","What is Dynamic Memory Allocation?"]
 },
 {
@@ -112,6 +142,7 @@
   "roadmap":"https://roadmap.sh",
   "documentation":"https://cplusplus.com/doc/tutorial/",
   "practice":"https://leetcode.com",
+  "interviewLink":"https://www.geeksforgeeks.org/cpp-interview-questions/",
   "interview":["What is OOP?","What is STL?","What is Virtual Function?"]
 },
 {
@@ -119,6 +150,7 @@
   "roadmap":"https://roadmap.sh/mongodb",
   "documentation":"https://www.mongodb.com/docs/",
   "practice":"https://www.mongodb.com",
+  "interviewLink":"https://www.geeksforgeeks.org/mongodb-interview-questions/",
   "interview":["What is MongoDB?","What is Collection?","What is Aggregation?"]
 },
 {
@@ -126,6 +158,7 @@
   "roadmap":"https://roadmap.sh/postgresql",
   "documentation":"https://www.postgresql.org/docs/",
   "practice":"https://www.hackerrank.com/domains/sql",
+  "interviewLink":"https://www.geeksforgeeks.org/postgresql-interview-questions/",
   "interview":["What is PostgreSQL?","What is Indexing?","What is View?"]
 },
 {
@@ -133,6 +166,7 @@
   "roadmap":"https://roadmap.sh/angular",
   "documentation":"https://angular.dev",
   "practice":"https://www.freecodecamp.org",
+   "interviewLink":"https://www.geeksforgeeks.org/angularjs-interview-questions/",
   "interview":["What is Angular?","What is Component?","What is Service?"]
 },
 {
@@ -140,6 +174,7 @@
   "roadmap":"https://roadmap.sh/vue",
   "documentation":"https://vuejs.org",
   "practice":"https://www.freecodecamp.org",
+   "interviewLink":"https://www.geeksforgeeks.org/vue-js-interview-questions/",
   "interview":["What is Vue?","What is Directive?","What is Vue Router?"]
 },
 {
@@ -147,6 +182,7 @@
   "roadmap":"https://roadmap.sh/flutter",
   "documentation":"https://docs.flutter.dev",
   "practice":"https://www.freecodecamp.org",
+   "interviewLink":"https://www.geeksforgeeks.org/flutter-interview-questions/",
   "interview":["What is Flutter?","What is Widget?","What is StatefulWidget?"]
 },
 {
@@ -154,6 +190,7 @@
   "roadmap":"https://roadmap.sh/android",
   "documentation":"https://developer.android.com/docs",
   "practice":"https://developer.android.com/courses",
+    "interviewLink":"https://www.geeksforgeeks.org/android-interview-questions/",
   "interview":["What is Activity?","What is Intent?","What is Fragment?"]
 },
 {
@@ -161,6 +198,7 @@
   "roadmap":"https://roadmap.sh/cyber-security",
   "documentation":"https://owasp.org",
   "practice":"https://tryhackme.com",
+   "interviewLink":"https://www.geeksforgeeks.org/cyber-security-interview-questions/",
   "interview":["What is Firewall?","What is SQL Injection?","What is XSS?"]
 },
 {
@@ -168,6 +206,7 @@
   "roadmap":"https://roadmap.sh/devops",
   "documentation":"https://docs.docker.com",
   "practice":"https://kodekloud.com",
+   "interviewLink":"https://www.geeksforgeeks.org/devops-interview-questions/",
   "interview":["What is CI/CD?","What is Docker?","What is Kubernetes?"]
 },
 {
@@ -175,6 +214,7 @@
   "roadmap":"https://roadmap.sh/aws",
   "documentation":"https://docs.aws.amazon.com",
   "practice":"https://aws.amazon.com/training/",
+    "interviewLink":"https://www.geeksforgeeks.org/aws-interview-questions/",
   "interview":["What is EC2?","What is S3?","What is Lambda?"]
 },
 {
@@ -182,6 +222,7 @@
   "roadmap":"https://roadmap.sh",
   "documentation":"https://learn.microsoft.com/azure/",
   "practice":"https://learn.microsoft.com/training/azure/",
+  "interviewLink":"https://www.geeksforgeeks.org/microsoft-azure-interview-questions/",
   "interview":["What is Azure VM?","What is Blob Storage?","What is Azure Functions?"]
 },
 {
@@ -189,6 +230,7 @@
   "roadmap":"https://roadmap.sh/devops",
   "documentation":"https://docs.docker.com",
   "practice":"https://kodekloud.com",
+    "interviewLink":"https://www.geeksforgeeks.org/docker-interview-questions/",
   "interview":["What is Docker?","What is Container?","What is Dockerfile?"]
 },
 {
@@ -196,6 +238,7 @@
   "roadmap":"https://roadmap.sh/kubernetes",
   "documentation":"https://kubernetes.io/docs/",
   "practice":"https://kodekloud.com",
+   "interviewLink":"https://www.geeksforgeeks.org/kubernetes-interview-questions/",
   "interview":["What is Pod?","What is Deployment?","What is Service?"]
 },
 {
@@ -203,6 +246,7 @@
   "roadmap":"https://roadmap.sh/ai-data-scientist",
   "documentation":"https://www.tensorflow.org",
   "practice":"https://www.kaggle.com",
+    "interviewLink":"https://www.geeksforgeeks.org/artificial-intelligence-interview-questions/",
   "interview":["What is AI?","What is Neural Network?","What is Deep Learning?"]
 },
 {
@@ -210,6 +254,7 @@
   "roadmap":"https://roadmap.sh/ai-data-scientist",
   "documentation":"https://pytorch.org/docs/stable/",
   "practice":"https://www.kaggle.com",
+    "interviewLink":"https://www.geeksforgeeks.org/deep-learning-interview-questions/",
   "interview":["What is CNN?","What is RNN?","What is Backpropagation?"]
 },
 {
@@ -217,6 +262,7 @@
   "roadmap":"https://roadmap.sh/ai-data-scientist",
   "documentation":"https://www.tensorflow.org/api_docs",
   "practice":"https://www.kaggle.com",
+   "interviewLink":"https://www.geeksforgeeks.org/tensorflow-interview-questions/",
   "interview":["What is TensorFlow?","What is Keras?","What is Tensor?"]
 },
 {
@@ -224,6 +270,7 @@
   "roadmap":"https://roadmap.sh/ai-data-scientist",
   "documentation":"https://pytorch.org/docs/stable/",
   "practice":"https://www.kaggle.com",
+   "interviewLink":"https://www.geeksforgeeks.org/pytorch-interview-questions/",
   "interview":["What is PyTorch?","What is Tensor?","What is Autograd?"]
 },
 {
@@ -231,6 +278,7 @@
   "roadmap":"https://roadmap.sh/blockchain",
   "documentation":"https://ethereum.org/en/developers/docs/",
   "practice":"https://cryptozombies.io",
+    "interviewLink":"https://www.geeksforgeeks.org/blockchain-interview-questions/",
   "interview":["What is Blockchain?","What is Smart Contract?","What is Ethereum?"]
 },
 {
@@ -238,7 +286,20 @@
   "roadmap":"https://roadmap.sh/data-analyst",
   "documentation":"https://pandas.pydata.org/docs/",
   "practice":"https://www.kaggle.com",
+   "interviewLink":"https://www.geeksforgeeks.org/data-analyst-interview-questions/",
   "interview":["What is KPI?","What is Dashboard?","What is ETL?"]
+},
+{
+  "topic":"Git",
+  "roadmap":"https://roadmap.sh/git-github",
+  "documentation":"https://git-scm.com/doc",
+  "practice":"https://www.atlassian.com/git/tutorials",
+  "interviewLink":"https://www.geeksforgeeks.org/git-interview-questions/",
+  "interview":[
+    "What is Git?",
+    "What is a Repository?",
+    "What is the difference between Git Pull and Git Fetch?"
+  ]
 }
 
 ]
