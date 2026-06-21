@@ -1,5 +1,5 @@
 # Smart-Student-Resource-Finder
-# Smart Student Resource Finder
+
 
 ## Overview
 
