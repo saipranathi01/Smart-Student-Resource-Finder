@@ -15,7 +15,7 @@ body{
     min-height:100vh;
 }
 .navbar{
-    background:#2563eb;
+    background:#0a358c;
     padding:18px;
     text-align:center;
     box-shadow:0 2px 10px rgba(0,0,0,0.1);
@@ -25,9 +25,7 @@ body{
     transition:0.3s;
 }
 
-.navbar a:hover{
-    color:#ffd700;
-}
+
 .suggestion-item{
     transition:0.3s;
 }
@@ -45,7 +43,7 @@ body{
 }
 .navbar a:hover{
     text-decoration:underline;
-    color:aquamarine
+    color:rgb(110, 176, 207)
 }
 
 .hero{
@@ -226,7 +224,7 @@ button:hover{
 .footer{
     text-align:center;
     padding:20px;
-    background:#2563eb;
+    background:#0a2f7d;
     color:white;
     margin-top:auto;
 }
@@ -256,7 +254,7 @@ button:hover{
     background:white;
     padding:20px;
     margin-bottom:20px;
-    border-radius:12px;
+    border-radius:22px;
     box-shadow:0 4px 15px rgba(0,0,0,0.1);
     overflow:hidden;
 }
@@ -320,14 +318,14 @@ button:hover{
     text-align:center;
     font-size:40px;
     border-bottom:3px solid #2563eb;
-    padding-bottom:10px;
-    margin-bottom:30px;
+    padding-bottom:20px;
+    margin-bottom:20px;
 }
 .resource-section h3{
     color:#1e40af;
     font-size:24px;
     font-weight:bold;
-    margin-bottom:10px;
+    margin-bottom:5px;
 }
 .hero h1{
     font-size:48px;
@@ -348,7 +346,7 @@ button:hover{
     background:white;
     padding:5px;
     border-radius:10px;
-    margin-bottom:5px;
+    margin-bottom:15px;
     box-shadow:0 2px 8px rgba(0,0,0,0.08);
 }
 .search-container{
@@ -421,6 +419,25 @@ button:hover{
     font-size:16px;
     line-height:1.8;
 }
-.resource-section{
-    padding:15px;
+.stat-card{
+    transition:0.3s;
+}
+
+.stat-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+.hero h1{
+    animation:fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(-20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
